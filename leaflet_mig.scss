@@ -1,0 +1,45 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+
+$value-color:       #000000;
+
+$title-color:       rgba(255, 255, 255, 1.0);
+$label-color:       rgba(255, 255, 255, 1.0);
+$moreinfo-color:    rgba(255, 255, 255, 1.0);
+
+// ----------------------------------------------------------------------------
+// Widget-LeafletMig styles
+// ----------------------------------------------------------------------------
+.widget-leaflet-mig {
+
+  background-color: #006994;
+  position: relative;
+
+  .title {
+    position: absolute;
+    color: $title-color;
+    top: 5px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .chart {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}
+
